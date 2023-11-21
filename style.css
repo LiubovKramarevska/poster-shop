@@ -1,0 +1,238 @@
+body{
+    width: 1500px;
+    height: 5000px;
+background-color: black;
+margin: 0;
+}
+header{
+    display: block;
+    width: 1440px;
+    height: 608px;
+    border: 1px;
+    background-color: rgb(108, 249, 108);
+    text-align: center;
+    margin: 0;
+
+}
+
+.fa{
+    display: flex;
+    justify-content: flex-start;
+    padding: 32px 0 0 32px;
+    width: 28px;
+    height: 20px;
+}
+
+
+header .image-head{
+ 
+
+}
+.image-head img{
+padding-top: 25px;
+width: 241px;
+height: 152px;
+
+}
+.poster {
+  padding-top: 125px;
+  font-size: 102px;
+  font-weight: 700;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+   
+  
+}
+
+nav.product-container{
+    display: flex;
+	flex-wrap: wrap;
+	max-height: 2690px;
+	max-width: 1001px; /* макс ширина */
+	margin: 0 auto;
+}
+
+
+.product{
+   
+    flex:1 1 calc(33.33% - 30px); /* отнимем margin и скажем растягиваться */
+	margin:5px;
+    margin-top: 40px;
+	box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+	min-width:312px; /* мин. ширина блока, чтобы переносились на другой ряд */
+	max-height: 543px;
+     font-size:200%; 
+     text-align:start; 
+     /* для красоты */
+    
+
+}
+
+.image{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-top: 0;
+}
+
+.image img{
+  width: 312px;
+  height: 273px;
+}
+
+.content {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 10px;
+    
+}
+
+.content p{
+    font-weight: normal;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+h2{
+    color: white;
+    font-size: 25px;
+}
+
+.button{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 1px 10px 1px 10px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(223, 73, 73);
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    
+}
+
+.sub-cont{
+ display: flex;
+	flex-wrap: wrap;
+    max-width: 1001px;
+    max-height:800px ;
+    margin: 0 auto;
+  
+}
+
+.sub-product{
+    flex:1 1 calc(33.33% - 30px); /* отнимем margin и скажем растягиваться */
+	margin:5px;
+    margin-top: 40px;
+	box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+	min-width:310px; /* мин. ширина блока, чтобы переносились на другой ряд */
+	max-height: 770px;
+     font-size:200%; 
+     text-align:start; 
+     background-color: white;
+}
+
+.sub-image img{
+    width: 490px;
+    height: 484px;
+}
+.sub-image{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-top: 0;
+}
+.sub-content{
+  width: 484px;
+  height: 272px;
+  position: relative;
+  padding-left: 10px;
+}
+
+.sub-content p{
+    font-weight: normal;
+    font-size: 18px;
+    padding-bottom: 60px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sub-content h2{
+
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+
+.sub-button{
+    background-color: rgb(223, 73, 73);
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    }
+  
+    footer{
+        width: 1438px;
+        height: 320px;
+        background-color: grey;
+        margin-top: 150px;
+        align-items: center;
+
+    }
+    
+    .info-box{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-around;
+       text-align: center;
+
+
+    }
+    h1{
+        color: white;
+    }
+
+    .info-box p{
+        color: white;
+    }
+   
+    ion-icon{
+        color: white;
+        size: 20px;
+    }
+    
+    .icons{
+       font-size: 30px;
+
+    }
